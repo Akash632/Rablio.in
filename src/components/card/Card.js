@@ -33,7 +33,7 @@ function Card(props) {
         </div>
         <div className='card-text' >
         <p>{username}</p>
-        <p>{email}</p>
+        <p>{email.slice(0,15)+"..."}</p>
         <div className='card-delete-container'>
           <input type='checkbox' value={props.index} onChange={handleChange} className='checkbox'/>
           <button onClick={()=>navigate(`data/${id}`)}>Edit</button>
