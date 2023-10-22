@@ -1,0 +1,216 @@
+.card-container{
+    border-radius: 10px;
+    width: 18%;
+    height: 230px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,194,246,1) 100%);
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+.details-left, .details-right{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,194,246,1) 100%);
+}
+.input-container h1{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-size: 50px;
+color: rgba(35,0,73,1);
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+.card-text button{
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.card-img-container{
+    width: 30%;
+    cursor: pointer;
+}
+.card-delete-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-delete-container button{
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.card-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-page-container{
+    width: 80%;
+    padding: 30px;
+}
+.card-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.card-page-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+.input-container{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-content{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.input-content button{
+    padding: 5px;
+    width: fit-content;
+    height:fit-content;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input{
+    padding: 5px;
+    width: 80%;
+    height: 50px;
+    border-width: 0px 0px 1px 0px;
+}
+.input:focus{
+    outline: none;
+}
+.details-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.details-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-left{
+    padding: 10px;
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.details-left-container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.details-left-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.details-right{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.details-right div{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.details-left-text p{
+    font-size: 20px;
+    font-weight: light;
+}
+.details-img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.details-right{
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.details-img-logo{
+    width: 30%;
+}
+.details-img-logo1{
+    width: 50%;
+}
+.details-img-logo1 img{
+    width: 100%;
+}
+.details-img-logo img{
+    width: 100%;
+}
+.deletebtn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0px 30px 0px 0px;
+    align-items: center;
+}
+.deletebtn button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.warningText{
+    margin: 0px 10px 0px 0px;
+    color: red;
+}
